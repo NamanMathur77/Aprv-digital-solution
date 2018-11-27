@@ -1,0 +1,29 @@
+.center-align{
+  margin-left: auto;
+  margin-right: auto;
+}
+.align-text{
+  text-align: center;
+}
+.item-align{
+  padding:10px 15px;
+  font-size: 18px;
+  display:block;
+}
+li:hover{
+  background-color: #1976D2;
+}
+.carousel {
+  height: 770px;
+}
+
+.carouselimage {
+    height: 770px;
+}
+.header-padding{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.dkcolor{
+  background-color: #EF9A9A;
+}
