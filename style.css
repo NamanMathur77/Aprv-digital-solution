@@ -10,15 +10,9 @@
   font-size: 18px;
   display:block;
 }
-li:hover{
-  background-color: #1976D2;
-}
-.carousel {
-  height: 770px;
-}
 
 .carouselimage {
-    height: 770px;
+    height: 600px;
 }
 .header-padding{
   padding-top: 50px;
@@ -92,7 +86,7 @@ li:hover{
   position: relative;
   margin: 10px auto;
   width: 300px;
-  height: 281px;
+  height: 300px;
   z-index: 1;
 }
 #f1_container {
@@ -133,4 +127,24 @@ li:hover{
 }
 .desimage:hover{
   background-color: #42A5F5;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.fixed-background {
+    background-image: url("https://blog.tefal.co.uk/wp-content/uploads/2016/06/Lifestyle-washing.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+h4:hover{
+  color:#5EBB60;
 }
